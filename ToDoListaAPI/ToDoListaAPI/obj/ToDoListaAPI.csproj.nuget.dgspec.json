@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedran\\Desktop\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj": {}
+    "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedran\\Desktop\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj": {
+    "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedran\\Desktop\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
         "projectName": "ToDoListaAPI",
-        "projectPath": "C:\\Users\\Vedran\\Desktop\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
+        "projectPath": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
         "packagesPath": "C:\\Users\\Vedran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedran\\Desktop\\ToDoListaAPI\\ToDoListaAPI\\obj\\",
+        "outputPath": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vedran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "uxdknJfYlOx9sD1hsIonhQweWTnVD9Lw3/gaTk+QNrQ=",
+  "Source": "ToDoListaAPI",
+  "BasePath": "_content/ToDoListaAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoListaAPI\\wwwroot",
+      "Source": "ToDoListaAPI",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "BasePath": "_content/ToDoListaAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\index.html",
+      "SourceId": "ToDoListaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "BasePath": "_content/ToDoListaAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
