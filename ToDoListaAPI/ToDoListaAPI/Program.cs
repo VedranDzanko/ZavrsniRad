@@ -32,6 +32,12 @@ builder.Services.AddSwaggerGen(sgo => { // sgo je instanca klase SwaggerGenOptio
     sgo.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
 
 });
+builder.Services.AddCors(opcije =>
+{
+    opcije.AddPolicy("CorsPolicy",
+        builder =>
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
 
 
 // dodavanje baze podataka
