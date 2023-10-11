@@ -3120,19 +3120,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Polaznik\\.nuget\\packages\\": {}
+    "C:\\Users\\Vedran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
       "projectName": "ToDoListaAPI",
-      "projectPath": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
-      "packagesPath": "C:\\Users\\Polaznik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\obj\\",
+      "projectPath": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
+      "packagesPath": "C:\\Users\\Vedran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Polaznik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vedran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3140,6 +3140,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3198,7 +3199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

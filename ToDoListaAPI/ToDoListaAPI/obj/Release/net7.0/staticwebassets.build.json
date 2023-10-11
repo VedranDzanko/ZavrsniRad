@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uXnb6JObcAcuQb0Hu/hAkVFbDoT43ZH6ucVjGEe2tPc=",
+  "Hash": "6dSDTO+XzYwx3k53afo0FpgywjwR3QK1kCEq7hhCF88=",
   "Source": "ToDoListaAPI",
   "BasePath": "_content/ToDoListaAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ToDoListaAPI\\wwwroot",
       "Source": "ToDoListaAPI",
-      "ContentRoot": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\index.html",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Desktop\\New folder\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",
