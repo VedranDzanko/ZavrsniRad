@@ -7,8 +7,5 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
-    <_PublishTargetUrl>ftp://:21/todolista</_PublishTargetUrl>
-    <History>False|2023-10-08T18:39:20.4112168Z;</History>
-    <LastFailureDetails />
   </PropertyGroup>
 </Project>
