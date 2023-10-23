@@ -8,18 +8,18 @@ import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 
 
-export default class DodajKorisnika extends Component {
+export default class DodajKategoriju extends Component {
 
   constructor(props) {
     super(props);
-    this.dodajKorisnika = this.dodajKorisnika.bind(this);
+    this.DodajKategoriju = this.dodajKategoriju.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  async dodajKorisnika(korisnik) {
-    const odgovor = await KorisnikDataService.post(korisnik);
+  async dodajKategoriju(kategorija) {
+    const odgovor = await KategorijaDataService.post(kategorija);
     if(odgovor.ok){
       
-      window.location.href='/korisnici';
+      window.location.href='/kategorija';
     }else{
       
       console.log(odgovor);
@@ -32,11 +32,10 @@ export default class DodajKorisnika extends Component {
     e.preventDefault();
     const podatci = new FormData(e.target);
 
-    this.dodajKorisnik({
-      ime: podatci.get('ime'),
-      prezime: podatci.get('prezime'),
-      korisnicko_ime: podatci.get('korisnicko_ime'),
-      lozinka:podatci.get('lozinka')
+    this.dodajKategoriju({
+      naziv: podatci.get('naziv'),
+      
+      sifra:podatci.get('sifra')
     });
     
   }
@@ -48,35 +47,24 @@ export default class DodajKorisnika extends Component {
         <Form onSubmit={this.handleSubmit}>
 
 
-          <Form.Group className="mb-3" controlId="ime">
-            <Form.Label>Ime</Form.Label>
-            <Form.Control type="text" name="ime" placeholder="Toni" maxLength={255} required/>
+          <Form.Group className="mb-3" controlId="naziv">
+            <Form.Label>Naziv</Form.Label>
+            <Form.Control type="text" name="naziv" placeholder="" maxLength={255} required/>
           </Form.Group>
 
 
-          <Form.Group className="mb-3" controlId="prezime">
-            <Form.Label>Prezime</Form.Label>
-            <Form.Control type="text" name="prezime" placeholder="Perić" required />
-          </Form.Group>
-
-
-          <Form.Group className="mb-3" controlId="korisnicko_ime">
-            <Form.Label>Korisnicko_ime</Form.Label>
-            <Form.Control type="text" name="korisnicko_ime" placeholder="TP" />
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="lozinka">
-            <Form.Label>lozinka</Form.Label>
-            <Form.Control type="text" name="lozinka" placeholder="" />
+          <Form.Group className="mb-3" controlId="sifra">
+            <Form.Label>Sifra</Form.Label>
+            <Form.Control type="text" name="sifra" placeholder="" />
           </Form.Group>
 
           <Row>
             <Col>
-              <Link className="btn btn-danger gumb" to={`/korisnici`}>Odustani</Link>
+              <Link className="btn btn-danger gumb" to={`/kategorija`}>Odustani</Link>
             </Col>
             <Col>
             <Button variant="primary" className="gumb" type="submit">
-              Dodaj korisnika
+              Dodaj kategoriju
             </Button>
             </Col>
           </Row>

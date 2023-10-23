@@ -66,6 +66,29 @@ namespace ToDoListaAPI.Controllers
 
         }
 
+        [HttpGet]
+        [Route("{šifra:int}")]
+        public IActionResult GetByID(int šifra)
+        {
+            if (šifra <= 0)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var i = _context.Korisnik.Find(šifra);
+                if (i == null)
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, i);
+                }
+                return new JsonResult(i);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+        }
 
         /// <summary>
         /// Dodaje korisnika u bazu

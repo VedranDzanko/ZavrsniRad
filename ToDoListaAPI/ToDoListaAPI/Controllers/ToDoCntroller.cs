@@ -73,6 +73,31 @@ namespace ToDoListaAPI.Controllers
                      ex);
             }
         }
+
+        [HttpGet]
+        [Route("{sifra:int}")]
+        public IActionResult GetByID(int sifra)
+        {
+            if (sifra <= 0)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var i = _context.Todo_Lista.Find(sifra);
+                if (i == null)
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, i);
+                }
+                return new JsonResult(i);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+        }
+
         /// <summary>
         /// Dodaje TodoListu u bazu
         /// </summary>
@@ -207,14 +232,14 @@ namespace ToDoListaAPI.Controllers
         /// <response code="415">Nismo poslali JSON</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpDelete]
-        [Route("{sifra:int}")]
-        public IActionResult Delete(int sifra)
+        [Produces("application/json")]
+        public IActionResult Delete(int Sifra)
         {
-            if (sifra<=0)
+            if (Sifra<=0)
             {
                 return BadRequest();
             }
-            var listaBaza = _context.Todo_Lista.Find(sifra);
+            var listaBaza = _context.Todo_Lista.Find(Sifra);
             if (listaBaza==null)
             {
                 return BadRequest();
@@ -227,7 +252,7 @@ namespace ToDoListaAPI.Controllers
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
                 return new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 
             }

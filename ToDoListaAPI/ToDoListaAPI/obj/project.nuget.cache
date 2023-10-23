@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fT/sr96nHmA9ppaUXme6XoUa/jW5GL/bRX/uBsWCjNgyI4md9BC6IOY6K7SfiHPBavaVBAL73vg6sdlX2eI9jQ==",
+  "dgSpecHash": "tkhjKbAxioOa3V4HhLtYMYh1eL0EpfbTeL8kyktPxg6cHY2LrZfusWDriR1tnFdXRPCeII6B33CaxG4QWv2hXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Polaznik\\Desktop\\ZavrsniRad-main\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\ToDoListaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Polaznik\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Polaznik\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

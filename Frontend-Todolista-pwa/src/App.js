@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import Izbornik from './components/izbornik.component';
 import Pocetna from './components/pocetna.component';
-import NadzornaPloca from './components/nadzornaploca.component';
+import Kategorija from './components/kategorija/kategorija.component';
 import Korisnici from './components/korisnik/korisnik.component';
 import DodajKorisnika from './components/korisnik/dodajkorisnika.component';
 import PromjeniKorisnika from './components/korisnik/promjenikorisnika.component';
@@ -15,16 +15,16 @@ export default function App() {
       <Izbornik />
       <Routes>
         <Route path='/' element={<Pocetna />} />
-        <Route path='/nadzornaploca' element={<NadzornaPloca />} />
-        <Route path='/smjerovi' element={<Smjerovi />} />
-        <Route path="/smjerovi/dodaj" element={<DodajSmjer />} />
-        <Route path="/smjerovi/:sifra" element={<PromjeniSmjer />} />
-        <Route path="/polaznici" element={<Polaznici />} />
-        <Route path="/polaznici/dodaj" element={<DodajPolaznik />} />
-        <Route path="/polaznici/:sifra" element={<PromjeniPolaznik />} />
-        <Route path="/grupe" element={<Grupe />} />
-        <Route path="/grupe/dodaj" element={<DodajGrupa />} />
-        <Route path="/grupe/:sifra" element={<PromjeniGrupa />} />
+        
+        <Route path='/kategorija' element={<Kategorija />} />
+        <Route path="/kategorija/dodaj" element={<DodajKategoriju />} />
+        <Route path="/kategorija/:sifra" element={<PromjeniKategoriju />} />
+        <Route path="/korisnici" element={<Korisnici />} />
+        <Route path="/korisnici/dodaj" element={<DodajKorisnika />} />
+        <Route path="/korisnici/:sifra" element={<PromjeniKorisnika />} />
+        <Route path="/zadatak" element={<Zadatak />} />
+        <Route path="/zadatak/dodaj" element={<DodajZadatak />} />
+        <Route path="/zadatak/:sifra" element={<PromjeniZadatak />} />
       </Routes>
      
     </Router>
