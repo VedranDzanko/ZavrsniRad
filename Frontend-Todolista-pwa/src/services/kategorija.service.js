@@ -5,22 +5,17 @@ class KategorijaDataService {
     return await http.get('/');
   }
 
-
-
-  async getBySifra(sifra) {
-    return await http.get('/polaznik/' + sifra);
+  async getBysifra(sifra) {
+    return await http.get('/Kategorija/'+ sifra);
   }
 
-  async traziPolaznik(uvjet) {
-    console.log('Tražim s: ' + uvjet);
-    return await http.get('/polaznik/trazi/'+uvjet);
-  }
+ 
 
-  async post(polaznik){
+  async post(kategorija){
     //console.log(smjer);
-    const odgovor = await http.post('/polaznik',polaznik)
+    const odgovor = await http.post('/Kategorija',kategorija)
        .then(response => {
-         return {ok:true, poruka: 'Unio polaznika'}; // return u odgovor
+         return {ok:true, poruka: 'Kategorija unesena'}; // return u odgovor
        })
        .catch(error => {
         console.log(error.response);
@@ -30,10 +25,10 @@ class KategorijaDataService {
        return odgovor;
   }
 
-  async put(sifra,polaznik){
-    const odgovor = await http.put('/polaznik/' + sifra,polaznik)
+  async put(sifra,kategorija){
+    const odgovor = await http.put('/Kategorija/'+sifra,kategorija)
        .then(response => {
-         return {ok:true, poruka: 'Promjenio polaznika'}; // return u odgovor
+         return {ok:true, poruka: 'Kategorija promjenjena'}; // return u odgovor
        })
        .catch(error => {
         console.log(error.response);
@@ -46,9 +41,9 @@ class KategorijaDataService {
 
   async delete(sifra){
     
-    const odgovor = await http.delete('/polaznik/' + sifra)
+    const odgovor = await http.delete('/Kategorija/'+ sifra)
        .then(response => {
-         return {ok:true, poruka: 'Obrisao uspješno'};
+         return {ok:true, poruka: 'Kategorija obrisana'};
        })
        .catch(error => {
          console.log(error);
@@ -58,21 +53,9 @@ class KategorijaDataService {
        return odgovor;
      }
 
-     async postaviSliku(sifra,slika){
-    
-      const odgovor = await http.put('/polaznik/postaviSliku/' + sifra,slika)
-         .then(response => {
-           return {ok:true, poruka: 'Postavio sliku'};
-         })
-         .catch(error => {
-           console.log(error);
-           return {ok:false, poruka: error.response.data};
-         });
-   
-         return odgovor;
-       }
+     
      
  
 }
 
-export default new PolaznikDataService();
+export default new KategorijaDataService();

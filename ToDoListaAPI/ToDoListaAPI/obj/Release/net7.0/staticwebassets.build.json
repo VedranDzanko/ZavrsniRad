@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "irLOD51kT4TOv8ZyMfXGmeyhQ6UJeOmX7luJHbvC3aw=",
+  "Hash": "EbTTFhjLD4Sv6EG3aEVtTwkuTZ5Agn8tMCjyE3sF8HY=",
   "Source": "ToDoListaAPI",
   "BasePath": "_content/ToDoListaAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ToDoListaAPI\\wwwroot",
       "Source": "ToDoListaAPI",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\asset-manifest.json",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\asset-manifest.json",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "asset-manifest.json",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\asset-manifest.json"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\favicon.ico",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\index.html",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\logo192.png",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\logo192.png",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "logo192.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\logo192.png"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\logo512.png",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\logo512.png",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "logo512.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\logo512.png"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\manifest.json",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\manifest.json",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\robots.txt",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\robots.txt",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "robots.txt",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\robots.txt"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "service-worker.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\service-worker.js"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js.LICENSE.txt",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js.LICENSE.txt",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "service-worker.js.LICENSE.txt",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\service-worker.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\service-worker.js.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "service-worker.js.map",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\service-worker.js.map"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/css/main.073c9b0a.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.073c9b0a.css"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/css/main.073c9b0a.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.073c9b0a.css.map"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/js/787.1a669bda.chunk.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.1a669bda.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/js/787.1a669bda.chunk.js.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.1a669bda.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/js/main.3a1d6010.js",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/js/main.3a1d6010.js.LICENSE.txt",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/js/main.3a1d6010.js.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js.map"
     },
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\github\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
       "RelativePath": "static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
       "AssetKind": "All",
