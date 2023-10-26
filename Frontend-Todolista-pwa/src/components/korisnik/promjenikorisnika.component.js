@@ -104,7 +104,7 @@ export default class PromjeniKorisnika extends Component {
 
           <Form.Group className="mb-3" controlId="korisnicko_ime">
             <Form.Label>Korisnicko_ime</Form.Label>
-            <Form.Control type="text" name="korisnicko_ime" placeholder="TM" defaultValue={korisnik.korisnicko_ime}  />
+            <Form.Control type="text" name="korisnicko_ime" placeholder="TP" defaultValue={korisnik.korisnicko_ime}  />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="lozinka">

@@ -6,8 +6,8 @@ class ToDoDataService{
         return await http.get('/ToDoCntroller');
     }
 
-    async getByID(šifra){
-        return await http.get('/ToDoCntroller'+ šifra);
+    async getBysifra(sifra){
+        return await http.get('/ToDoCntroller'+ sifra);
     }
 
     async post(ToDo){
@@ -22,8 +22,8 @@ class ToDoDataService{
         return odgovor;
     }
 
-   async put(šifra){
-    const odgovor= await http.put('/ToDoCntroller'+ šifra)
+   async put(sifra){
+    const odgovor= await http.put('/ToDoCntroller'+ sifra)
     .then(response =>{
         return{ok:true, poruka:'Uspješno promijenjeno'};
     })
@@ -34,10 +34,10 @@ class ToDoDataService{
     return odgovor;
    }
 
-   async delete(šifra){
-    const odgovor=await http.delete('/ToDoCntroller?Sifra='+ šifra)
+   async delete(sifra){
+    const odgovor=await http.delete('/ToDoCntroller?Sifra='+ sifra)
     .then(response=>{
-        return{ok:true, poruka:'Obrisano uspješno'};
+        return{ok:true, poruka:'Uspješno obrisano'};
     })
     .catch(error=>{
         console.log(error);

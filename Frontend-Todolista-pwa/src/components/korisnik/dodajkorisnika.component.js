@@ -67,7 +67,7 @@ export default class DodajKorisnika extends Component {
 
           <Form.Group className="mb-3" controlId="lozinka">
             <Form.Label>lozinka</Form.Label>
-            <Form.Control type="text" name="lozinka" placeholder="" />
+            <Form.Control type="text" name="lozinka" placeholder=""/>
           </Form.Group>
 
           <Row>

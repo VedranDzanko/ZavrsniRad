@@ -60,7 +60,7 @@ export default class DodajKategoriju extends Component {
 
           <Row>
             <Col>
-              <Link className="btn btn-danger gumb" to={`/kategorija`}>Odustani</Link>
+              <Link className="btn btn-danger gumb" to={`/naziv`}>Odustani</Link>
             </Col>
             <Col>
             <Button variant="primary" className="gumb" type="submit">

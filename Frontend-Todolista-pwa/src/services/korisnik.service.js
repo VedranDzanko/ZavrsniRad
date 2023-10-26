@@ -1,19 +1,19 @@
 import http from '../http-common';
 
-class ClanDataService{
+class KorisnikDataService{
 
     async getAll(){
         return await http.get('/Korisnik');
     }
 
-    async getByID(šifra){
-        return await http.get('/Korisnik/'+ šifra);
+    async getBysifra(sifra){
+        return await http.get('/Korisnik'+ sifra);
     }
 
-    async post(clan){
+    async post(korisnik){
         const odgovor=await http.post('/Korisnik',korisnik)
         .then(response =>{
-            return{ok:true, poruka:' Korisnik uspješno unesen!'};
+            return{ok:true, poruka:' Korisnik unesen!'};
         })
         .catch(error=>{
             console.log(error.response);
@@ -22,10 +22,10 @@ class ClanDataService{
         return odgovor;
     }
 
-   async put(šifra){
-    const odgovor= await http.put('/Korisnik'+ šifra)
+   async put(sifra){
+    const odgovor= await http.put('/Korisnik/8'+ sifra)
     .then(response =>{
-        return{ok:true, poruka:'Korisnik je uspješno promijenjen'};
+        return{ok:true, poruka:'Korisnik promijenjen'};
     })
     .catch(error=>{
         console.log(error.response);
@@ -34,10 +34,10 @@ class ClanDataService{
     return odgovor;
    }
 
-   async delete(šifra){
-    const odgovor=await http.delete('/Korisnik'+ šifra)
+   async delete(sifra){
+    const odgovor=await http.delete('/Korisnik/8'+ sifra)
     .then(response=>{
-        return{ok:true, poruka:'Obrisano uspješno'};
+        return{ok:true, poruka:'Korisnik obrisan'};
     })
     .catch(error=>{
         console.log(error);
@@ -48,4 +48,4 @@ class ClanDataService{
 
 }
 
-export default new ClanDataService();
+export default new KorisnikDataService();

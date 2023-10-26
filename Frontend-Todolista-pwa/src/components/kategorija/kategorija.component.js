@@ -78,7 +78,7 @@ export default class Kategorija extends Component {
                   
                   <Row>
                       <Col>
-                      <Link className="btn btn-primary gumb" to={`/clanovi/${p.šifra}`}><FaEdit /></Link>
+                      <Link className="btn btn-primary gumb" to={`/naziv/${p.šifra}`}><FaEdit /></Link>
                       </Col>
                       <Col>
                       <Button variant="danger" className="gumb"  onClick={() => this.obrisiKategoriju(p.šifra)}><FaTrash /></Button>
@@ -96,7 +96,7 @@ export default class Kategorija extends Component {
               <Modal.Header closeButton>
                 <Modal.Title>Greška prilikom brisanja</Modal.Title>
               </Modal.Header>
-              <Modal.Body>Kategoriju nije moguce obrisati jer je u zadatku!</Modal.Body>
+              <Modal.Body>Kategoriju nije moguće obrisati jer je u zadatku!</Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={this.zatvoriModal}>
                   Zatvori
@@ -111,7 +111,7 @@ export default class Kategorija extends Component {
               <Modal.Header closeButton>
                 <Modal.Title>Uspješno brisanje</Modal.Title>
               </Modal.Header>
-              <Modal.Body>Kategorija uspjesno obrisana!!</Modal.Body>
+              <Modal.Body>Kategorija uspješno obrisana!!</Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={this.zatvoriUspjesnoModal}>
                   Zatvori

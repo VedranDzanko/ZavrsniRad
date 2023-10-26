@@ -6,14 +6,14 @@ class ZadatakDataService{
         return await http.get('/Zadatak');
     }
 
-    async getByID(šifra){
-        return await http.get('/Zadatak'+ šifra);
+    async getBysifa(sifra){
+        return await http.get('/Zadatak'+ sifra);
     }
 
-    async post(Zadatak){
-        const odgovor=await http.post('/Zadatak',)
+    async post(zadatak){
+        const odgovor=await http.post('/Zadatak',zadatak)
         .then(response =>{
-            return{ok:true, poruka:' Zadatak uspješno unesen!'};
+            return{ok:true, poruka:' Zadatak unesen!'};
         })
         .catch(error=>{
             console.log(error.response);
@@ -22,10 +22,10 @@ class ZadatakDataService{
         return odgovor;
     }
 
-   async put(šifra){
-    const odgovor= await http.put('/Zadatak/'+ šifra)
+   async put(sifra){
+    const odgovor= await http.put('/Zadatak/'+ sifra)
     .then(response =>{
-        return{ok:true, poruka:'Zadatak uspješno promijenjen!'};
+        return{ok:true, poruka:'Zadatak promijenjen!'};
     })
     .catch(error=>{
         console.log(error.response);
@@ -34,10 +34,10 @@ class ZadatakDataService{
     return odgovor;
    }
 
-   async delete(šifra){
-    const odgovor=await http.delete('/Zadatak/'+ šifra)
+   async delete(sifra){
+    const odgovor=await http.delete('/Zadatak/'+ sifra)
     .then(response=>{
-        return{ok:true, poruka:'Zadatak uspješno obrisan!'};
+        return{ok:true, poruka:'Zadatak obrisan!'};
     })
     .catch(error=>{
         console.log(error);
