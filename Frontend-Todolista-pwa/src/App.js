@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import Izbornik from './components/izbornik.component';
 import Pocetna from './components/pocetna.component';
 import Kategorija from './components/kategorija/kategorija.component';
+import DodajKategoriju from './components/kategorija/dodajkategoriju.component';
+import PromjeniKategoriju from './components/kategorija/promjenikategoriju.component';
 import Korisnici from './components/korisnik/korisnici.component';
 import DodajKorisnika from './components/korisnik/dodajkorisnika.component';
 import PromjeniKorisnika from './components/korisnik/promjenikorisnika.component';
