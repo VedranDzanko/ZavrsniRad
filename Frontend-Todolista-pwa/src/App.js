@@ -9,6 +9,10 @@ import PromjeniKategoriju from './components/kategorija/promjenikategoriju.compo
 import Korisnici from './components/korisnik/korisnici.component';
 import DodajKorisnika from './components/korisnik/dodajkorisnika.component';
 import PromjeniKorisnika from './components/korisnik/promjenikorisnika.component';
+import Zadatak from './components/zadatak/zadatak.component';
+import DodajZadatak from './components/zadatak/dodajzadatak.component';
+import PromjeniZadatak from './components/zadatak/promjenizadatak.component';
+import NadzornaPloca from './components/nadzornaploca.component';
 
 
 export default function App() {
@@ -27,6 +31,7 @@ export default function App() {
         <Route path="/zadatak" element={<Zadatak />} />
         <Route path="/zadatak/dodaj" element={<DodajZadatak />} />
         <Route path="/zadatak/:sifra" element={<PromjeniZadatak />} />
+        <Route path='/nadzornaploca' element={<NadzornaPloca />} />
       </Routes>
      
     </Router>

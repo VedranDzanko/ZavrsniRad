@@ -41,12 +41,12 @@
       "PackagePath": "staticwebassets\\service-worker.js.map"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css",
-      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.98c0213b.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.98c0213b.css"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css.map",
-      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css.map"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.98c0213b.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.98c0213b.css.map"
     },
     {
       "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js",
@@ -57,20 +57,24 @@
       "PackagePath": "staticwebassets\\static\\js\\787.1a669bda.chunk.js.map"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js",
-      "PackagePath": "staticwebassets\\static\\js\\main.3a1d6010.js"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.179f0bf3.js"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt",
-      "PackagePath": "staticwebassets\\static\\js\\main.3a1d6010.js.LICENSE.txt"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.179f0bf3.js.LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.map",
-      "PackagePath": "staticwebassets\\static\\js\\main.3a1d6010.js.map"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.179f0bf3.js.map"
     },
     {
-      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
-      "PackagePath": "staticwebassets\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.2d27ead7c10f774c5306bcf3c257a728.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.2d27ead7c10f774c5306bcf3c257a728.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\mojLogo.738f0608f8a3830471f7.png",
+      "PackagePath": "staticwebassets\\static\\media\\mojLogo.738f0608f8a3830471f7.png"
     },
     {
       "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ToDoListaAPI.Microsoft.AspNetCore.StaticWebAssets.props",

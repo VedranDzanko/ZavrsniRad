@@ -24,7 +24,7 @@
              <response code="400">Zahtjev nije valjan (BadRequest)</response> 
              <response code="503">Na azure treba dodati IP u firewall</response> 
         </member>
-        <member name="M:TodoLista.Controllers.KategorijaController.Post(ToDoListaAPI.Models.Kategorija)">
+        <member name="M:TodoLista.Controllers.KategorijaController.GetBySifra(System.Int32)">
              <summary>
              Dodaje kategoriju u bazu
              </summary>
@@ -256,7 +256,7 @@
              <response code="400">Zahtjev nije valjan (BadRequest)</response> 
              <response code="503">Na azure treba dodati IP u firewall</response> 
         </member>
-        <member name="M:ToDoListaAPI.Controllers.ZadatakController.Post(ToDoListaAPI.Models.DTO.ZadatakDTO)">
+        <member name="M:ToDoListaAPI.Controllers.ZadatakController.GetBySifra(System.Int32)">
              <summary>
              Dodaje zadatak u bazu
              </summary>
@@ -270,7 +270,7 @@
              <returns>Kreirani zadatak u bazi s svim podacima</returns>
              <response code="200">Sve je u redu</response>
              <response code="400">Zahtjev nije valjan (BadRequest)</response> 
-             <response code="503">Na azure treba dodati IP u firewall</response> 
+             <response code="503">Na azure treba dodati IP u firewall</response>
         </member>
         <!-- Badly formed XML comment ignored for member "M:ToDoListaAPI.Controllers.ZadatakController.Put(System.Int32,ToDoListaAPI.Models.DTO.ZadatakDTO)" -->
         <member name="M:ToDoListaAPI.Controllers.ZadatakController.Delete(System.Int32)">

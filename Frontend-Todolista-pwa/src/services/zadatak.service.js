@@ -6,7 +6,7 @@ class ZadatakDataService{
         return await http.get('/Zadatak');
     }
 
-    async getBysifa(sifra){
+    async getBySifa(sifra){
         return await http.get('/Zadatak'+ sifra);
     }
 

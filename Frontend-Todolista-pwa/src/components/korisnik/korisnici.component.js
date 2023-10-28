@@ -30,8 +30,8 @@ export default class Korisnici extends Component {
   componentDidMount() {
     this.dohvatiKorisnike();
   }
-  dohvatiKorisnike() {
-    KorisnikDataService.getAll()
+  async dohvatiKorisnike() {
+    await KorisnikDataService.getAll()
       .then(response => {
         this.setState({
           korisnici: response.data

@@ -5,7 +5,7 @@ class KategorijaDataService {
     return await http.get('/');
   }
 
-  async getBysifra(sifra) {
+  async getBySifra(sifra) {
     return await http.get('/Kategorija/'+ sifra);
   }
 

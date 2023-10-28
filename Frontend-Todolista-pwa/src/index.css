@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.slika{
+  border-radius: 4%;
+  content:url(https://cdn.icon-icons.com/icons2/1526/PNG/512/checklist_106575.png);
+}
+
+.App-logo{
+  content:url(../../mojLogo.png);
+}

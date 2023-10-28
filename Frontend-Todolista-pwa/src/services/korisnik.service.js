@@ -2,12 +2,12 @@ import http from '../http-common';
 
 class KorisnikDataService{
 
-    async getAll(){
+    async get(){
         return await http.get('/Korisnik');
     }
 
-    async getBysifra(sifra){
-        return await http.get('/Korisnik'+ sifra);
+    async getBySifra(sifra){
+        return await http.get('/Korisnik/'+ sifra);
     }
 
     async post(korisnik){
@@ -23,7 +23,7 @@ class KorisnikDataService{
     }
 
    async put(sifra){
-    const odgovor= await http.put('/Korisnik/8'+ sifra)
+    const odgovor= await http.put('/Korisnik/'+ sifra)
     .then(response =>{
         return{ok:true, poruka:'Korisnik promijenjen'};
     })
@@ -35,7 +35,7 @@ class KorisnikDataService{
    }
 
    async delete(sifra){
-    const odgovor=await http.delete('/Korisnik/8'+ sifra)
+    const odgovor=await http.delete('/Korisnik/'+ sifra)
     .then(response=>{
         return{ok:true, poruka:'Korisnik obrisan'};
     })

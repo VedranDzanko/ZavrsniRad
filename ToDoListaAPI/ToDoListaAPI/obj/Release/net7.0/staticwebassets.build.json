@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EbTTFhjLD4Sv6EG3aEVtTwkuTZ5Agn8tMCjyE3sF8HY=",
+  "Hash": "dS13PPQwdg7j0IstW6l2qB5CKXWymKPnnwZxmwJMMR0=",
   "Source": "ToDoListaAPI",
   "BasePath": "_content/ToDoListaAPI",
   "Mode": "Default",
@@ -187,12 +187,12 @@
       "OriginalItemSpec": "wwwroot\\service-worker.js.map"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.98c0213b.css",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/css/main.073c9b0a.css",
+      "RelativePath": "static/css/main.98c0213b.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\main.073c9b0a.css"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.98c0213b.css"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.073c9b0a.css.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\css\\main.98c0213b.css.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/css/main.073c9b0a.css.map",
+      "RelativePath": "static/css/main.98c0213b.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\main.073c9b0a.css.map"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.98c0213b.css.map"
     },
     {
       "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\787.1a669bda.chunk.js",
@@ -255,12 +255,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.1a669bda.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/js/main.3a1d6010.js",
+      "RelativePath": "static/js/main.179f0bf3.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.179f0bf3.js"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js.LICENSE.txt",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/js/main.3a1d6010.js.LICENSE.txt",
+      "RelativePath": "static/js/main.179f0bf3.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.179f0bf3.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.3a1d6010.js.map",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\js\\main.179f0bf3.js.map",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/js/main.3a1d6010.js.map",
+      "RelativePath": "static/js/main.179f0bf3.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.3a1d6010.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.179f0bf3.js.map"
     },
     {
-      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\logo.2d27ead7c10f774c5306bcf3c257a728.svg",
       "SourceId": "ToDoListaAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
       "BasePath": "_content/ToDoListaAPI",
-      "RelativePath": "static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+      "RelativePath": "static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,7 +320,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
+      "OriginalItemSpec": "wwwroot\\static\\media\\logo.2d27ead7c10f774c5306bcf3c257a728.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\static\\media\\mojLogo.738f0608f8a3830471f7.png",
+      "SourceId": "ToDoListaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vedran\\Desktop\\ZavrsniRad\\ToDoListaAPI\\ToDoListaAPI\\wwwroot\\",
+      "BasePath": "_content/ToDoListaAPI",
+      "RelativePath": "static/media/mojLogo.738f0608f8a3830471f7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\media\\mojLogo.738f0608f8a3830471f7.png"
     }
   ]
 }

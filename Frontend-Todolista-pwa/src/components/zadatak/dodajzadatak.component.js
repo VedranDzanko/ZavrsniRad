@@ -16,7 +16,7 @@ export default class DodajZadatak extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   async dodajZadatak(zadatak) {
-    const odgovor = await ZadatakDataServiceDataService.post(zadatak);
+    const odgovor = await ZadatakDataService.post(zadatak);
     if(odgovor.ok){
       
       window.location.href='/zadatak';

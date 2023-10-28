@@ -6,7 +6,7 @@ class ToDoDataService{
         return await http.get('/ToDoCntroller');
     }
 
-    async getBysifra(sifra){
+    async getBySifra(sifra){
         return await http.get('/ToDoCntroller'+ sifra);
     }
 

@@ -21,11 +21,11 @@ export default class Izbornik extends Component{
                 <Nav className="me-auto">
                   <Nav.Link href="/nadzornaploca">Nadzorna ploča</Nav.Link>
                   <NavDropdown title="Programi" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/zadatci">zadatci</NavDropdown.Item>
+                    <NavDropdown.Item href="/zadatci">Zadatci</NavDropdown.Item>
                     <NavDropdown.Item href="/korisnici">
                       Korisnici
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/kategorije">Kategorije</NavDropdown.Item>
+                    <NavDropdown.Item href="/kategorija">Kategorija</NavDropdown.Item>
                     <NavDropdown.Item href="/to-dolista">To-do lista</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item target="_blank" href="/swagger/index.html">

@@ -68,7 +68,7 @@ export default class Kategorija extends Component {
     <Container>
       <a href="/kategorija/dodaj" className="btn btn-success gumb">Dodaj novu kategoriju</a>
     <Row>
-      { kategorija && kategorija.map((p) => (
+      { kategorija && kategorija((p) => (
            
            <Col key={p.sifra} sm={12} lg={3} md={3}>
 
